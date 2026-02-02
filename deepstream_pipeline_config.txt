@@ -19,13 +19,14 @@ cudadec-memtype=0
 
 [sink0]
 enable=1
-type=3
-codec=1
-container=1
-bitrate=4000000
-output-file=output_data/video.mp4
-encoder-type=0
+#Type - 1=FakeSink 2=EglSink/nv3dsink(Jetson only) 3=File 4=RTSPStreaming 5=nvdrmvideosink
+type=2
 sync=0
+plane-id=0
+width=0
+height=0
+conn-id=1
+source-id=0
 
 [osd]
 enable=1
