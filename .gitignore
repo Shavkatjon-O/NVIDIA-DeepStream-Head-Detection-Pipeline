@@ -1,5 +1,6 @@
 .venv/
 .vscode/
+.cursor/
 __pycache__/
 output_data/
 model/
